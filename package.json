@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-mongodb-multitenancy",
+  "version": "1.0.0",
+  "description": "Manage two or n number of MongoDB database connection from the single instance",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khanusama20/nodejs-mongodb-multitenancy.git"
+  },
+  "author": "Khan Usama",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khanusama20/nodejs-mongodb-multitenancy/issues"
+  },
+  "homepage": "https://github.com/khanusama20/nodejs-mongodb-multitenancy#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "mongoose": "^5.11.15"
+  }
+}
